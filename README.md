@@ -36,17 +36,16 @@ Edit
 ```bash
 git clone https://github.com/d1vyadharsh1n1/Vehicle-Damage-Detection.git
 cd Vehicle-Damage-Detection
-2. Create and activate a virtual environment (recommended)
-bash
-Copy
-Edit
+```
+### 2. Create and activate a virtual environment (recommended)
+```bash
 python -m venv venv
+```
 source venv/bin/activate       # On Windows: venv\Scripts\activate
-🚀 Run the Application
-bash
-Copy
-Edit
+### 🚀 Run the Application
+```bash
 python app.py
+```
 Then open your browser and go to:
 http://127.0.0.1:5000/
 
