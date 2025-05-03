@@ -24,9 +24,6 @@ Vehicle-Damage-Detection/
 │ └── index.html # HTML template for frontend
 └── README.md # Project documentation
 
-yaml
-Copy
-Edit
 
 ---
 
@@ -49,7 +46,10 @@ python app.py
 Then open your browser and go to:
 http://127.0.0.1:5000/
 
-🧠 How It Works
+---
+
+
+## 🧠 How It Works
 Users upload an image through the browser.
 
 The app saves the image to the static/uploads/ directory.
@@ -62,18 +62,24 @@ A path to a visualized output image (if applicable)
 
 The result is displayed on the same page with both original and processed images.
 
+---
 
-📷 Example (UI)
+
+## 📷 Example (UI)
 Select and upload an image of a damaged vehicle.
 
 View the prediction and possibly an annotated version of the image.
 
 Use the output for further analysis or reporting.
 
-🤝 Contributing
+---
+
+## 🤝 Contributing
 Pull requests and suggestions are welcome!
 Feel free to fork this repository and submit improvements.
 
-📄 License
+---
+
+## 📄 License
 This project is licensed under the MIT License.
 
