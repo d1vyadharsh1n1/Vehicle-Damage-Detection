@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vehicle Damage Detection</title>
+  </head>
+  <body style="font-family: Arial; padding: 20px">
+    <h1>Upload Vehicle Image</h1>
+    <form method="post" enctype="multipart/form-data">
+      <input type="file" name="file" required />
+      <input type="submit" value="Upload & Detect" />
+    </form>
+
+    {% if image_path %}
+    <h3>Original Image:</h3>
+    <img src="{{ image_path }}" width="300" />
+    {% endif %} {% if result_img_path %}
+    <h3>Damage Highlighted:</h3>
+    <img src="{{ result_img_path }}" width="300" />
+    {% endif %} {% if prediction %}
+    <h2>Result: {{ prediction }}</h2>
+    {% endif %}
+  </body>
+</html>
